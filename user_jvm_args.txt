@@ -1,0 +1,11 @@
+# Xmx and Xms set the maximum and minimum RAM usage, respectively.
+# They can take any number, followed by an M or a G.
+# M means Megabyte, G means Gigabyte.
+# For example, to set the maximum to 3GB: -Xmx3G
+# To set the minimum to 2.5GB: -Xms2500M
+
+# A good default for a modded server is 4GB.
+# Uncomment the next line to set it.
+# -Xms16G -Xmx22G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=500
+# Edit from StormDragon_64: I would recommend to set it to 4.5GB, or even 5GB for the extra headroom, 
+# but 4 is enough if you don't have too many players online.
